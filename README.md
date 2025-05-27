@@ -44,7 +44,7 @@ Auto-Network-Monitoring/
 ## 🖥️ System Workflow
 
 
-<img src="flowchart/flowchart1.png" alt="Flowchart" width="800"/>
+<img src="flowchart/flowchart1.png" alt="Flowchart" width="500" height='600' />
 
 
  ## 🔍 How Each File Works
@@ -162,6 +162,9 @@ Start Prometheus: Navigate to your Prometheus directory in the terminal and star
 
 The system attempts to automatically fix issues when a device goes down.
 
+<img src="flowchart/flowchart2.png" alt="Flowchart" width="400" height="400"/>
+
+
 ### Netmiko (Primary Method — `monitor.py`)
 
 For devices that support SSH access and are compatible with Netmiko (e.g., Cisco IOS, Juniper Junos), `monitor.py` can send commands like `reload` or other custom-defined commands to attempt recovery.
@@ -230,6 +233,6 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for m
 
 ## 👨‍💻 Author
 
-**Shibam Nath**  
+**[Shibam Nath](https://www.linkedin.com/in/nathshibam/)**  
 GitHub: [shibam120302](https://github.com/shibam120302)
 

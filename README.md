@@ -2,7 +2,7 @@
 
 A fully automated network monitoring system that detects network failures (packet loss, high latency, link failures), alerts you via Slack & Email, and performs auto-remediation using Python, Netmiko, and Shell scripts. It also provides a REST API and Prometheus-Grafana integration for real-time monitoring and dashboards.
 
----
+
 
 ## 📌 Features
 
@@ -22,7 +22,7 @@ A fully automated network monitoring system that detects network failures (packe
   - Grafana dashboards
 - 🌐 REST API for live status of devices
 
----
+
 
 ## 🧾 Project File Structure
 
@@ -40,6 +40,12 @@ Auto-Network-Monitoring/
 └── exporters/
     └── metrics_exporter.py   # Prometheus metrics exporter
 ```
+
+## 🖥️ System Workflow
+
+![Flowchart](https://example.com/path/to/image.png)
+
+
 
  ## 🔍 How Each File Works
 
@@ -187,7 +193,6 @@ Network Alert
 
 The email body will contain more details about the downed device.
 
----
 
 ## 🌐 REST API
 
@@ -207,7 +212,6 @@ Potential enhancements for this project include:
 - **Store Logs to Database**: Implement logging to a persistent database (e.g., PostgreSQL, MySQL, InfluxDB) for better querying and historical analysis.
 - **Kubernetes & Docker Compose Deployment**: Create configurations for easier deployment and scaling using containerization technologies.
 
----
 
 ## 🙌 Contributing
 
@@ -216,13 +220,13 @@ Contributions are welcome!
 - For **minor changes**, feel free to submit a **pull request**.
 - For **major changes or new features**, please open an **issue first** to discuss the proposed changes.
 
----
+
 
 ## 📄 License
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
 
----
+
 
 ## 👨‍💻 Author
 

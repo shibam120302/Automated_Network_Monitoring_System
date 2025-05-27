@@ -44,7 +44,7 @@ Auto-Network-Monitoring/
 ## 🖥️ System Workflow
 
 
-<img src="flowchart.png" alt="Flowchart" width="800"/>
+<img src="flowchart/flowchart1.png" alt="Flowchart" width="800"/>
 
 
  ## 🔍 How Each File Works

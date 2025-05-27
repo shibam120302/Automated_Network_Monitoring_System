@@ -43,8 +43,8 @@ Auto-Network-Monitoring/
 
 ## 🖥️ System Workflow
 
-![Flowchart](flowchart.png)
 
+<img src="flowchart.png" alt="Flowchart" width="800"/>
 
 
  ## 🔍 How Each File Works

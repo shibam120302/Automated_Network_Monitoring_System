@@ -1,0 +1,10 @@
+# prometheus.yml
+# Configuration to scrape custom metrics from your monitoring script
+
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'network_monitor'
+    static_configs:
+      - targets: ['localhost:8000']

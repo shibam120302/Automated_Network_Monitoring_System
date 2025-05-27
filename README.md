@@ -43,7 +43,7 @@ Auto-Network-Monitoring/
 
 ## 🖥️ System Workflow
 
-![Flowchart](https://example.com/path/to/image.png)
+![Flowchart](flowchart.png)
 
 
 

@@ -1,4 +1,5 @@
-# 🚀 Automated Network Monitoring and Remediation System
+# 🚀 Network Monitoring  System
+
 
 A fully automated network monitoring system that detects network failures (packet loss, high latency, link failures), alerts you via Slack & Email, and performs auto-remediation using Python, Netmiko, and Shell scripts. It also provides a REST API and Prometheus-Grafana integration for real-time monitoring and dashboards.
 
